@@ -4,10 +4,10 @@
 Welcome to the OLPC website for Rwanda, under development by Code the Change UBC!
 
 Brief description of the project:
-1. This website will be integrated into the website for the National Board of Education in Rwanda. [#1] 
+1. This website will be integrated into the website for the National Board of Education in Rwanda. [^1] 
 2. The focus of the website initially would be to elaborate on the 5 topics of interest and activity in Rwanda
 
-[#1]: Website: http://reb.rw/index.php?id=6
+[^1]: Website: http://reb.rw/index.php?id=6
 
 ## Progress and Process
 
