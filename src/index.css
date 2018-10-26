@@ -3,3 +3,25 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+header {
+  background-color: #aa22aa;
+}
+h1 {
+  background-color: #cc22cc;
+}
+nav.navbar ul li a {
+  background-color: #cc22cc;
+	color: #FFFFFF;
+	padding: 20px 40px 20px 40px;
+	font-weight: bold;
+	text-decoration: none;
+	display: inline-block;
+	transition: 1s;
+}
+nav.navbar ul li {
+  display: block;
+  float: left;
+}
+nav.navbar ul li a:hover {
+  background-color: #772277;
+}
