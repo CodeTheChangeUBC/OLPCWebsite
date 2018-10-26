@@ -1,0 +1,19 @@
+:root {
+    --button-color: pink;
+    --font-color: grey;
+    --number-of-element: 5;
+}
+
+#navbar {
+    list-style: none;
+    display: flex;
+    background: var(--button-color);
+}
+
+#navbar li {
+    font-size: 2rem;
+    text-align: center;
+    color: var(--font-color);
+    padding: 1rem 0;
+    width: calc(100% / var(--number-of-element));
+}
