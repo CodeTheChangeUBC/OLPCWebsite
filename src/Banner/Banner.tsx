@@ -1,18 +1,18 @@
 import * as React from 'react';
-import './Banner.css';
+// import './Banner.css';
 
 export const Banner = () => {
     
         return (
         <header>
           O
-          <span className = "hide">ne</span>&nbsp;
+          <span className = "hide"><span className = "purple">NE</span></span>&nbsp;
           L
-          <span className = "hide">aptop</span>&nbsp;
+          <span className = "hide">APTOP</span>&nbsp;
           P
-          <span className = "hide">er</span>&nbsp;
+          <span className = "hide"><span className = "yellow">ER</span></span>&nbsp;
           C
-          <span className = "hide">hild</span>
+          <span className = "hide"><span className = "green">HILD</span></span>
         </header>
         )
     
