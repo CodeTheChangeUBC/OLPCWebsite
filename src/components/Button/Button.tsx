@@ -3,14 +3,14 @@ import "./Button.css";
 
 // tslint:disable-next-line:interface-name
 interface Props {
-    onclick: () => {};
     text: string;
+    link: string;
 }
 
 class Button extends React.Component<Props> {
     public render () {
         return(
-            <button onClick={this.props.onclick}>{this.props.text}</button>
+            <a href={this.props.link}>{this.props.text}</a>
         )
     }
 }

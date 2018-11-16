@@ -1,15 +1,16 @@
 import * as React from 'react';
+import Button from "../Button/Button";
 import "./Navbar.css";
 
 class Navbar extends React.Component {
     public render () {
         return(
             <ul id="navbar">
-                <li>Deployment</li>
-                <li>Development</li>
-                <li>Capacity</li>
-                <li>Maintenance</li>
-                <li>sustainability</li>
+                <li><Button link="#" text="Deployment"/></li>
+                <li><Button link="#" text="Development"/></li>
+                <li><Button link="#" text="Capacity"/></li>
+                <li><Button link="#" text="Maintenance"/></li>
+                <li><Button link="#" text="Sustainability"/></li>
             </ul>
         )
     }
