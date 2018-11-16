@@ -1,9 +1,8 @@
-.Footer {
-    text-align: bottom left;
-  }
-    
+.db {
+    display: block;
+}
 
-  .dib {
+.dib {
     display: inline-block;
 }
 
@@ -29,68 +28,66 @@
     outline: 1px dotted currentColor;
 }
 
-.white-80 {
-    color: rgba(255, 255, 255, .8);
+.mid-gray {
+    color: #555;
 }
 
-.bg-near-black {
-    background-color: #111;
+.pv4 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
-.hover-gold:hover {
-    color: #ffb700;
+.ph2 {
+    padding-left: .5rem;
+    padding-right: .5rem;
 }
 
-.hover-gold:focus {
-    color: #ffb700;
+.ph3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
-.hover-light-purple:hover {
-    color: #a463f2;
+.mt3 {
+    margin-top: 1rem;
 }
 
-.hover-light-purple:focus {
-    color: #a463f2;
+.tc {
+    text-align: center;
 }
 
-.hover-green:hover {
-    color: #19a974;
-}
-
-.hover-green:focus {
-    color: #19a974;
-}
-
-.pv5 {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-}
-
-.ph4 {
-    padding-left: 2rem;
-    padding-right: 2rem;
-}
-
-.mr4 {
-    margin-right: 2rem;
+.ttu {
+    text-transform: uppercase;
 }
 
 .f6 {
     font-size: .875rem;
 }
 
-@media screen and (min-width: 30em) {
-    .mr5-ns {
-        margin-right: 4rem;
+.dim {
+    opacity: 1;
+    transition: opacity .15s ease-in;
+}
+
+.dim:hover, .dim:focus {
+    opacity: .5;
+    transition: opacity .15s ease-in;
+}
+
+.dim:active {
+    opacity: .8;
+    transition: opacity .15s ease-out;
+}
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+    .ph5-m {
+        padding-left: 4rem;
+        padding-right: 4rem;
     }
 }
 
 @media screen and (min-width: 60em) {
-    .pv6-l {
-        padding-top: 8rem;
-        padding-bottom: 8rem;
+    .ph6-l {
+        padding-left: 8rem;
+        padding-right: 8rem;
     }
 }
-  
- 
-  
