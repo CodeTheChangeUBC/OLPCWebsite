@@ -7,11 +7,88 @@
   height: 80px;
 }
 
-.App-header {
-  background-color: #222;
+/* .App-header {
+  background-color: #cc22cc;
   height: 150px;
   padding: 20px;
   color: white;
+} */
+header {
+  text-align: center;
+  padding-left: 10%;
+  padding: 50px;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: 5em;
+  animation: stretch 4s;
+  animation-fill-mode: forwards;
+}
+
+header span.hide {
+  word-spacing: 2px;
+  animation: fadeIn 6s;
+  font-size: 0.5em;
+  animation-fill-mode: forwards;
+}
+
+header span.green {
+  color: #005500;
+  word-spacing: 2px;
+  animation: fadeIn-green 6s;
+  animation-fill-mode: forwards;
+}
+
+header span.purple {
+  color: #550055;
+  word-spacing: 2px;
+  animation: fadeIn-purple 6s;
+  animation-fill-mode: forwards;
+}
+
+header span.yellow {
+  color: #777700;
+  word-spacing: 2px;
+  animation: fadeIn-yellow 6s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes stretch {
+  0% {color: #ffffff;
+      word-spacing:0px;}
+  10% {word-spacing: 0px;
+      color: #000000;}
+  80% {word-spacing: 30px;}
+  100% {word-spacing: 30px;}
+}
+
+@keyframes fadeIn {
+  0% {color: #ffffff;}
+  50% {color: #ffffff;}
+  100% {color: #000055;}
+}
+
+@keyframes fadeIn-green {
+  0% {color: #ffffff;}
+  50% {color: #ffffff;}
+  100% {color: #005500;}
+}
+
+@keyframes fadeIn-purple {
+  0% {color: #ffffff;}
+  50% {color: #ffffff;}
+  100% {color: #550055;}
+}
+
+@keyframes fadeIn-yellow {
+  0% {color: #ffffff;}
+  50% {color: #ffffff;}
+  100% {color: #777700;}
+}
+
+img {
+  float: right;
+  border-radius: 55%;
+  box-shadow: 0px 0px 30px #000000;
 }
 
 .App-title {
