@@ -1,0 +1,16 @@
+:root {
+    --navbar-link-color: black;
+    --navbar-bg-hover: #d0d0d0;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: var(--navbar-link-color);
+}
+.navbar-link:hover {
+    text-decoration: none;
+    color: var(--navbar-link-color);
+    background: var(--navbar-bg-hover);
+    padding: 1vh 1vw;
+    border-radius: 1vw;
+}
