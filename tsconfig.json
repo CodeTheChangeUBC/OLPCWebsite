@@ -5,6 +5,9 @@
     "module": "esnext",
     "target": "es5",
     "lib": ["es6", "dom"],
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
     "sourceMap": true,
     "allowJs": true,
     "jsx": "react",
@@ -25,7 +28,7 @@
     "scripts",
     "acceptance-tests",
     "webpack",
-    "jest",
+    "mocha",
     "src/setupTests.ts"
   ]
 }

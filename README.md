@@ -17,7 +17,6 @@ Brief description of the project:
 - **Gaurav Vasudev** - @gauravnv 
 - **Boyi Yao** - @Eric1015
 - **Samuel Or** - @sor2
-- **Brandon Tai** - @beetai
 -  
 ## Steps  to run the website:*
 
