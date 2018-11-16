@@ -5,12 +5,13 @@ export const Footer =() => {
  
     return (
       <div className="Footer">
-        <footer className="bg-near-black white-80 pv5 pv6-l ph4">
-          <p className="f6"><span className="dib mr4 mr5-ns">Made in collaboration with Code the Change UBC</span>
-            <a className="link white-80 hover-light-purple" href="/terms">Terms</a> /
-            <a className="link white-80 hover-gold" href="/privacy"> Privacy </a> /
-            <a className="link white-80 hover-green" href="#">gaurav@codethechange.ca </a>
-          </p>
+        <footer className="pv4 ph3 ph5-m ph6-l mid-gray">
+          <small className="f6 db tc"><b className="ttu">Code the Change UBC</b></small>
+          <div className="tc mt3">
+            <a href="mailto:gaurav@codethechange.ca" title="Language" className="f6 dib ph2 link mid-gray dim">Contact</a>
+            <a href="/terms/" title="Terms" className="f6 dib ph2 link mid-gray dim">Terms of Use</a>
+            <a href="/privacy/" title="Privacy" className="f6 dib ph2 link mid-gray dim">Privacy</a>
+          </div>
         </footer>
       </div>
     );

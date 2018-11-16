@@ -1,7 +1,7 @@
 import * as React from 'react';
 import './App.css';
-import Banner from './Banner/Banner';
-import Image from './Image/Image';
+import Banner from './Components/Banner/Banner';
+// import Image from './Components/Image/Image';
 
 import Footer from './Components/Footer/Footer';
 import Navbar from './Components/Navbar/Navbar';
@@ -11,7 +11,7 @@ class App extends React.Component {
     return (
       <div> 
         <Banner />
-        <Image />
+        {/* <Image /> */}
 
         <Navbar />
         <Footer />
