@@ -10,7 +10,7 @@ interface Props {
 class Button extends React.Component<Props> {
     public render () {
         return(
-            <a href={this.props.link}>{this.props.text}</a>
+            <a className="navbar-link" href={this.props.link}>{this.props.text}</a>
         )
     }
 }
